@@ -1,0 +1,19 @@
+.navbar .navbar-toggler { --ease-in-cubic: cubic-bezier(.55, .055, .675, .19); --ease-out-cubic: cubic-bezier(.215, .61, .355, 1); --ease-parabolic-fall: cubic-bezier(.33333, 0, .66667, .33333); --ease-parabolic-rise: cubic-bezier(.33333, .66667, .66667, 1); --toggler-icon-height: 22px; --toggler-icon-width: 22px; background: none !important; border: none !important; border-radius: 0 !important; height: var(--toggler-icon-height); padding: 0 !important; position: relative; width: var(--toggler-icon-width); }
+
+.navbar .navbar-toggler .navbar-toggler-icon { position: absolute; top: 10px; transform: rotate(-45deg); transition: transform 0.13s var(--ease-in-cubic) 0.13s; }
+
+.navbar .navbar-toggler .navbar-toggler-icon, .navbar .navbar-toggler .navbar-toggler-icon::after, .navbar .navbar-toggler .navbar-toggler-icon::before { background-color: var(--navbar-toggler-color); display: block; height: 2px; position: absolute; width: var(--toggler-icon-width); }
+
+.navbar .navbar-toggler .navbar-toggler-icon::after, .navbar .navbar-toggler .navbar-toggler-icon::before { content: ""; }
+
+.navbar .navbar-toggler .navbar-toggler-icon::after { opacity: 0; top: 0; transition: opacity 0.1s linear 0.22s, top 0.2s var(--ease-parabolic-fall); }
+
+.navbar .navbar-toggler .navbar-toggler-icon::before { top: 0; transform: rotate(-90deg); transition: top 0.2s var(--ease-parabolic-fall), transform 0.13s var(--ease-out-cubic) 0.26s; }
+
+.navbar .navbar-toggler.collapsed .navbar-toggler-icon { top: 10px; transform: rotate(0); transition: transform 0.13s var(--ease-out-cubic) 0.22s; }
+
+.navbar .navbar-toggler.collapsed .navbar-toggler-icon::after { opacity: 1; top: 6px; transition: opacity 0.1s linear, top 0.2s var(--ease-parabolic-rise) 0.2s; }
+
+.navbar .navbar-toggler.collapsed .navbar-toggler-icon::before { top: -6px; transform: rotate(0); transition: top 0.2s var(--ease-parabolic-rise) 0.2s, transform 0.13s var(--ease-in-cubic); }
+
+/*# sourceMappingURL=navbar-toggler.css.map */

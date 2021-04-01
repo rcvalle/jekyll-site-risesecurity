@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://risesecurity.com/</id>
+  <link href="https://risesecurity.com"/>
+  <link href="https://risesecurity.com/atom.xml" rel="self"/>
+  
+  <subtitle>We are a research group founded in 2004 by three vulnerability researchers:
+Adriano S Lima, Ramon de C Valle, and Rodrigo R Branco.
+</subtitle>
+  <title>risesecurity</title>
+  <updated></updated>
+  
+</feed>
