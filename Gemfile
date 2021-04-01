@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'jekyll-autoprefixer'
+gem 'jekyll-paginate'
+gem 'jekyll-theme-bootstrap4'
+gem 'kramdown-parser-gfm'
