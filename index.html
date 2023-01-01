@@ -1,0 +1,48 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="{{ site.baseurl }}">
+    <title>RISE Security</title>
+    <link href="{{ "/atom.xml" | relative_url }}" rel="alternate" type="application/atom+xml">
+    <link href="{{ "/rss.xml" | relative_url }}" rel="alternate" type="application/rss+xml">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" crossorigin="anonymous" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" crossorigin="anonymous" rel="stylesheet">
+    {% if site.author %}
+      <meta name="author" content="{{ site.author }}">
+    {% endif %}
+    {% if site.description %}
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@risesecurity">
+    <meta name="twitter:site" content="@risesecurity">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="https://risesecurity.com/assets/images/logo1_320.png">
+    <meta property="og:title" content="RISE Security">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://risesecurity.com">
+  </head>
+  <body>
+    <div class="container d-flex flex-column min-vh-100">
+      <header class="mb-auto"></header>
+      <main class="text-center">
+        <img src="{{ "/assets/images/logo1_320.png" | relative_url }}">
+        <p class="lead mx-auto w-75">{{ site.description }}</p>
+        <p class="lead">
+          <a href="{{ "/blog/" | relative_url }}" class="mx-1 text-secondary"><i class="fas fa-blog"></i><span class="d-none">Blog</span></a>
+          <a href="https://github.com/risesecurity" class="mx-1 text-secondary"><i class="fab fa-github"></i><span class="d-none">GitHub</span></a>
+          <!-- <a href="https://medium.com/@risesecurity" class="mx-1 text-secondary"><i class="fab fa-medium"></i><span class="d-none">Medium</span></a> -->
+          <!-- <a href="https://risesecurity.tumblr.com/" class="mx-1 text-secondary"><i class="fab fa-tumblr"></i><span class="d-none">Tumblr</span></a> -->
+          <a href="https://twitter.com/risesecurity" class="mx-1 text-secondary"><i class="fab fa-twitter"></i><span class="d-none">Twitter</span></a>
+          <!-- <a href="https://risesecurity.wordpress.com/" class="mx-1 text-secondary"><i class="fab fa-wordpress"></i><span class="d-none">WordPress</span></a> -->
+        </p>
+      </main>
+      <footer class="mt-auto"></footer>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>

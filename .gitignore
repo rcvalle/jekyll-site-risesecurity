@@ -1,0 +1,8 @@
+.bundle
+.jekyll-cache
+.sass-cache
+Gemfile.lock
+_data
+_drafts
+_site
+vendor

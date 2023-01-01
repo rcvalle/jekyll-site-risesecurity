@@ -1,0 +1,8 @@
+// Config file for HTML tidy
+drop-empty-elements: no
+indent: auto
+indent-spaces: 2
+quiet: yes
+tidy-mark: no
+vertical-space: yes
+wrap: 120

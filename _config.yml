@@ -1,0 +1,25 @@
+analytics: UA-187313538-1
+baseurl: jekyll-site-risesecurity
+categories_dir: /blog/category/
+description: |
+  We are a research group founded in 2004 by three vulnerability researchers:
+  Adriano S de Lima, Ramon de C Valle, and Rodrigo R Branco.
+disqus_shortname: risesecurity
+excerpts: false
+exclude:
+  - "CONTRIBUTING*"
+  - "Gemfile*"
+  - "LICENSE*"
+  - "README*"
+gtag: G-4Q5VXFWSEK
+paginate: 3
+paginate_path: /blog/pages/:num/
+permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-paginate
+sass:
+  # style: compressed
+tags_dir: /blog/tag/
+theme: jekyll-theme-bootstrap5
+title: risesecurity
+url: https://rcvalle.github.io/jekyll-site-risesecurity/
